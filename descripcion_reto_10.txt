@@ -1,2 +1,0 @@
-Plataforma PESV - Control de inspecciones diarias de vehículo.
-La Res 40595/2022 exige la inspección diaria de los vehículos puestos al servicio de la organización, lo que supone un seguimiento y estadística confiable para el reporte de indicadores y verificación de cumplimiento. Hoy este proceso se realiza manualmente con enlace de forms cuyos datos diariamente deben ser procesados en un archivo de Excel.
