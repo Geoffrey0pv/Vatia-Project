@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Variables de entorno (nunca subir al repositorio)
+.env
+
+# Datos en bruto (PDFs, Excel descargados)
+data/raw/
+!data/raw/.gitkeep
+
+# Base de datos local
+data/*.db
+*.db
+
+# EasyOCR models cache
+.EasyOCR/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# ChromaDB
+chroma_db/
