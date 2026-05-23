@@ -1,0 +1,31 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Dependencias del sistema para easyocr + pymupdf
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libpq-dev gcc \
+        libglib2.0-0 libsm6 libxext6 libxrender-dev libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Dependencias del ETL
+RUN pip install --no-cache-dir \
+    requests>=2.31.0 \
+    beautifulsoup4>=4.12.0 \
+    pymupdf>=1.23.0 \
+    easyocr>=1.7.0 \
+    pdfplumber>=0.10.0 \
+    openpyxl>=3.1.0 \
+    pandas>=2.2.0 \
+    numpy>=1.26.0 \
+    psycopg2-binary>=2.9.9 \
+    sqlalchemy>=2.0.0 \
+    python-dotenv>=1.0.0 \
+    apscheduler>=3.10.0
+
+COPY etl/  ./etl/
+COPY db/   ./db/
+
+VOLUME ["/app/data"]
+
+CMD ["python", "-m", "etl.pipeline"]

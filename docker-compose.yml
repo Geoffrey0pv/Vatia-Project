@@ -1,0 +1,89 @@
+services:
+
+  # ── PostgreSQL ────────────────────────────────────────────────────────────
+  db:
+    image: postgres:16-alpine
+    container_name: vatia_db
+    environment:
+      POSTGRES_DB:       vatia
+      POSTGRES_USER:     vatia
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-vatia_dev_pass}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vatia -d vatia"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # ── Streamlit Dashboard ───────────────────────────────────────────────────
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    container_name: vatia_app
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      - DATABASE_URL=postgresql://vatia:${POSTGRES_PASSWORD:-vatia_dev_pass}@db:5432/vatia
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+      - ./app:/app/app
+      - ./db:/app/db
+    restart: unless-stopped
+
+  # ── ETL Pipeline (ejecutar manualmente) ───────────────────────────────────
+  # Uso: docker compose --profile etl run --rm etl
+  etl:
+    build:
+      context: .
+      dockerfile: Dockerfile.etl
+    container_name: vatia_etl
+    env_file:
+      - .env
+    environment:
+      - DATABASE_URL=postgresql://vatia:${POSTGRES_PASSWORD:-vatia_dev_pass}@db:5432/vatia
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+    profiles:
+      - etl
+    command: python -m etl.pipeline
+
+  # ── pgAdmin — Explorador visual de PostgreSQL ─────────────────────────────
+  # Acceso: http://localhost:5050
+  # Login:  admin@vatia.local / vatia_admin (configurable via .env)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: vatia_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL:    ${PGADMIN_EMAIL:-admin@vatia.dev}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-vatia_admin}
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      - ./docker/pgadmin/servers.json:/pgadmin4/servers.json:ro
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+    name: vatia_pgdata
+  pgadmin_data:
+    name: vatia_pgadmin
