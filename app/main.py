@@ -104,6 +104,9 @@ with st.sidebar:
     nivel_col = next((c for c in df_all.columns if c.lower() == "nivel_tension"), "Nivel_Tension")
     comp_col  = next((c for c in df_all.columns if c.lower() == "comercializador"), "Comercializador")
 
+    # Asegurar que el ciclo se trate como texto, incluso si viene como entero
+    df_all[ciclo_col] = df_all[ciclo_col].astype(str).str.strip()
+
     ciclos = sorted(df_all[ciclo_col].dropna().unique(), reverse=True)
     ciclo_sel = st.selectbox("📅 Ciclo", ciclos, index=0)
 
@@ -151,7 +154,8 @@ for _df in [df_all_norm, df_ciclo_norm, df_nivel_norm]:
 
 
 # ── Header ────────────────────────────────────────────────────────────────────
-fecha_display = ciclo_sel[:4] + "-" + ciclo_sel[4:] if len(ciclo_sel) == 6 else ciclo_sel
+ciclo_str = str(ciclo_sel)
+fecha_display = ciclo_str[:4] + "-" + ciclo_str[4:] if len(ciclo_str) == 6 else ciclo_str
 st.markdown(
     f"""
     <div class="vatia-header">
