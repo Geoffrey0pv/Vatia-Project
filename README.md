@@ -46,12 +46,12 @@ PDFs públicos → OCR → PostgreSQL → Dashboard Streamlit
 > **Dashboard Streamlit** — `http://localhost:8501`
 
 <!-- Inserta aquí un pantallazo del dashboard -->
-![Dashboard VATIA](docs/screenshot_dashboard.png)
+![alt text](image.png)
 
 > **pgAdmin4** — `http://localhost:5050`
 
 <!-- Inserta aquí un pantallazo de pgAdmin -->
-![pgAdmin VATIA](docs/screenshot_pgadmin.png)
+![alt text](image-1.png)
 
 ---
 

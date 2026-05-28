@@ -1,0 +1,67 @@
+name: ETL — Extracción de Tarifas
+
+on:
+  workflow_dispatch:
+    inputs:
+      competidor:
+        description: 'Competidor a procesar'
+        required: true
+        default: 'cens'
+        type: choice
+        options:
+          - cens
+          - todos
+
+jobs:
+  etl:
+    name: Pipeline ETL (${{ github.event.inputs.competidor }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements-etl.txt
+
+      - name: Instalar dependencias del sistema
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            libpq-dev gcc \
+            libglib2.0-0 libsm6 libxext6 libxrender-dev libgomp1
+
+      - name: Instalar dependencias Python (ETL)
+        run: pip install -r requirements-etl.txt
+
+      - name: Cache modelos EasyOCR (~200 MB, descarga única)
+        uses: actions/cache@v4
+        with:
+          path: ~/.EasyOCR
+          key: easyocr-models-v1
+
+      - name: Crear directorio de salida
+        run: mkdir -p data/processed
+
+      - name: Ejecutar pipeline ETL
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          if [ "${{ github.event.inputs.competidor }}" = "todos" ]; then
+            python -m etl.pipeline
+          else
+            python -m etl.pipeline --solo ${{ github.event.inputs.competidor }}
+          fi
+
+      - name: Subir CSV como artefacto
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tarifas-${{ github.event.inputs.competidor }}-${{ github.run_id }}
+          path: data/processed/*.csv
+          retention-days: 30
