@@ -17,7 +17,14 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Carga .env si existe (útil para desarrollo local)
 
+from etl.scrapers.aire import AireScraper
+from etl.scrapers.afinia import AfiniaScraper
+from etl.scrapers.bia import BiaScraper
 from etl.scrapers.cens import CensScraper
+from etl.scrapers.codensa import CodensaScraper
+from etl.scrapers.emcali import EmcaliScraper
+from etl.scrapers.epm import EpmScraper
+from etl.scrapers.essa import EssaScraper
 from etl.transform import normalizar, validar_integridad_cu
 from etl.load import upsert_tarifas, exportar_csv
 
@@ -30,10 +37,20 @@ logger = logging.getLogger(__name__)
 
 # ── Scrapers registrados — agregar nuevos aquí ────────────────────────────────
 SCRAPERS = [
+    AireScraper,
+    AfiniaScraper,
+    BiaScraper,
     CensScraper,
-    # AfiniaScrapers,  # Por implementar
-    # EpmScraper,      # Por implementar
+    CodensaScraper,
+    EmcaliScraper,
+    EpmScraper,
+    EssaScraper,
 ]
+
+
+def _slug(texto: str) -> str:
+    """Normaliza nombres para permitir coincidencias con o sin guiones/espacios."""
+    return "".join(ch for ch in texto.lower() if ch.isalnum())
 
 
 def run_all(solo: str | None = None) -> None:
@@ -45,7 +62,7 @@ def run_all(solo: str | None = None) -> None:
     """
     scrapers_a_ejecutar = [
         S for S in SCRAPERS
-        if solo is None or S.competidor.lower() == solo.lower()
+        if solo is None or _slug(S.competidor) == _slug(solo)
     ]
 
     if not scrapers_a_ejecutar:
@@ -78,7 +95,7 @@ def run_all(solo: str | None = None) -> None:
                 logger.warning("PostgreSQL no disponible: %s — solo CSV.", e)
 
             # 4. Exportar CSV de respaldo
-            csv_ruta = Path("data/processed") / f"tarifas_{nombre.lower()}.csv"
+            csv_ruta = Path("data/processed") / f"tarifas_{_slug(nombre)}.csv"
             exportar_csv(df_norm, csv_ruta)
 
             resultados[nombre] = f"✔ {len(df_norm)} filas"

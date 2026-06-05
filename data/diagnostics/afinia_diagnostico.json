@@ -1,0 +1,1682 @@
+{
+  "target_url": "https://afinia.com.co/inicio/tarifas-y-subsidios",
+  "keywords": [
+    "pdf",
+    "tarifa",
+    "tarifas",
+    "subsidio",
+    "subsidios",
+    "costo",
+    "unitario",
+    "energia",
+    "energía",
+    "cu"
+  ],
+  "requests": {
+    "ok": true,
+    "status_code": 200,
+    "final_url": "https://afinia.com.co/inicio/tarifas-y-subsidios",
+    "content_type": "text/html; charset=utf-8",
+    "html_length": 105287,
+    "links": [
+      {
+        "source": "requests",
+        "text": "Septimebre",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/LAREP_2022_09_20-17.pdf?ver=M4-qKDoBWegEuCSzsbeKzw%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/LAREP_2022_09_20-17.pdf?ver=M4-qKDoBWegEuCSzsbeKzw%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Septimebre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/09.%20AFINIA_tarifas_sep-23.pdf?ver=IjsP1aOxc6Wxg3IV7qFjLg%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/09.%20AFINIA_tarifas_sep-23.pdf?ver=IjsP1aOxc6Wxg3IV7qFjLg%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Dicimebre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/12.%20AFINIA_tarifas_dic-22.pdf?ver=sX28NZp9XNNpn6NEV8XSNA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/12.%20AFINIA_tarifas_dic-22.pdf?ver=sX28NZp9XNNpn6NEV8XSNA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Enero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/1.%20ENERO%202020.pdf?ver=Nb72nRVNN9_3F6b1V6LxDA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/1.%20ENERO%202020.pdf?ver=Nb72nRVNN9_3F6b1V6LxDA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202001"
+      },
+      {
+        "source": "requests",
+        "text": "Febrero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/2.%20FEBRERO%202020.pdf?ver=daRo9eAiagGuFXmEA-tV8w%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/2.%20FEBRERO%202020.pdf?ver=daRo9eAiagGuFXmEA-tV8w%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202002"
+      },
+      {
+        "source": "requests",
+        "text": "Marzo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/3.%20MARZO%202020.pdf?ver=zja7nhxDYjkXwFk1YIA_vw%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/3.%20MARZO%202020.pdf?ver=zja7nhxDYjkXwFk1YIA_vw%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202003"
+      },
+      {
+        "source": "requests",
+        "text": "Abril",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/4.%20ABRIL%202020.pdf?ver=6VALRiYK6q2vqO3C-bqenQ%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/4.%20ABRIL%202020.pdf?ver=6VALRiYK6q2vqO3C-bqenQ%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202004"
+      },
+      {
+        "source": "requests",
+        "text": "Mayo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/5.%20MAYO%202020.pdf?ver=ueRdj1IsuEcy6hy4gFgXMQ%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/5.%20MAYO%202020.pdf?ver=ueRdj1IsuEcy6hy4gFgXMQ%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202005"
+      },
+      {
+        "source": "requests",
+        "text": "Junio",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/6.%20JUNIO%202020.pdf?ver=q7h8JbXUknJoS3iU0ErfiA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/6.%20JUNIO%202020.pdf?ver=q7h8JbXUknJoS3iU0ErfiA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202006"
+      },
+      {
+        "source": "requests",
+        "text": "Agosto",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/8.%20AGOSTO%202020.pdf?ver=mx-CbvHjWbqyOFHvl25bFA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/8.%20AGOSTO%202020.pdf?ver=mx-CbvHjWbqyOFHvl25bFA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202008"
+      },
+      {
+        "source": "requests",
+        "text": "Septimebre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/9.%20SEPTIEMBRE%202020.pdf?ver=CoadXnl7FjkdPoE96rGWwQ%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/9.%20SEPTIEMBRE%202020.pdf?ver=CoadXnl7FjkdPoE96rGWwQ%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202009"
+      },
+      {
+        "source": "requests",
+        "text": "Octubre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/10.%20OCTUBRE%202020.pdf?ver=s8pIGumKBfTUF_vE7BTnIw%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/10.%20OCTUBRE%202020.pdf?ver=s8pIGumKBfTUF_vE7BTnIw%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202010"
+      },
+      {
+        "source": "requests",
+        "text": "Noviembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/11.%20NOVIEMBRE%202020.pdf?ver=s0UN6MYtzzdLKRrTkAau2A%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/11.%20NOVIEMBRE%202020.pdf?ver=s0UN6MYtzzdLKRrTkAau2A%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202011"
+      },
+      {
+        "source": "requests",
+        "text": "Dicimebre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/12.%20DICIEMBRE%202020.pdf?ver=X1IedbF32FY9H8CRLFTA5w%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/12.%20DICIEMBRE%202020.pdf?ver=X1IedbF32FY9H8CRLFTA5w%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202012"
+      },
+      {
+        "source": "requests",
+        "text": "Enero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/01.%20AFINIA_tarifas_ene-15.pdf?ver=zFQCwQkvRaRqG28kAxMWTQ%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/01.%20AFINIA_tarifas_ene-15.pdf?ver=zFQCwQkvRaRqG28kAxMWTQ%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202101"
+      },
+      {
+        "source": "requests",
+        "text": "Febrero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/02.%20AFINIA_tarifas_feb-15-2021-remplaza-la-publicacion-del-15-de-febrero.pdf?ver=dEYqfgKcUfbx_YujAW56Xw%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/02.%20AFINIA_tarifas_feb-15-2021-remplaza-la-publicacion-del-15-de-febrero.pdf?ver=dEYqfgKcUfbx_YujAW56Xw%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202102"
+      },
+      {
+        "source": "requests",
+        "text": "Marzo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/03.%20AFINIA_tarifas_mar-17.pdf?ver=bjstcQC1L_ciOFPJodJWnA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/03.%20AFINIA_tarifas_mar-17.pdf?ver=bjstcQC1L_ciOFPJodJWnA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202103"
+      },
+      {
+        "source": "requests",
+        "text": "Abril",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/04.%20AFINIA_tarifas_abr-17.pdf?ver=kNtI2En2AtyDGacapzJNrA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/04.%20AFINIA_tarifas_abr-17.pdf?ver=kNtI2En2AtyDGacapzJNrA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202104"
+      },
+      {
+        "source": "requests",
+        "text": "Mayo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/05.%20AFINIA_tarifas_may-15.pdf?ver=MtMCMJSnshyVcXImdme4NA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/05.%20AFINIA_tarifas_may-15.pdf?ver=MtMCMJSnshyVcXImdme4NA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202105"
+      },
+      {
+        "source": "requests",
+        "text": "Junio",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/06.%20AFINIA_tarifas_jun-16.pdf?ver=ZvYt02YoOpW43Mrhf59Bfw%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/06.%20AFINIA_tarifas_jun-16.pdf?ver=ZvYt02YoOpW43Mrhf59Bfw%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202106"
+      },
+      {
+        "source": "requests",
+        "text": "Julio",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/07.%20AFINIA_tarifas_jul-21.pdf?ver=b_fAzSha966tj2NafrxbzA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/07.%20AFINIA_tarifas_jul-21.pdf?ver=b_fAzSha966tj2NafrxbzA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202107"
+      },
+      {
+        "source": "requests",
+        "text": "Agosto",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/08.%20AFINIA_tarifas_ago-19.pdf?ver=Gzb491z0FbvKyAP2casSdw%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/08.%20AFINIA_tarifas_ago-19.pdf?ver=Gzb491z0FbvKyAP2casSdw%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202108"
+      },
+      {
+        "source": "requests",
+        "text": "Octubre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/10.%20AFINIA_tarifas_oct-21.pdf?ver=wUG4FfViIzagRDqaQDYC5A%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/10.%20AFINIA_tarifas_oct-21.pdf?ver=wUG4FfViIzagRDqaQDYC5A%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202110"
+      },
+      {
+        "source": "requests",
+        "text": "Noviembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/11.%20AFINIA_tarifas_nov-19.pdf?ver=kNtI2En2AtyDGacapzJNrA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/11.%20AFINIA_tarifas_nov-19.pdf?ver=kNtI2En2AtyDGacapzJNrA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202111"
+      },
+      {
+        "source": "requests",
+        "text": "Enero",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-20-1-2022_.pdf?ver=-anHx2gp8CGXvvV2NO7D7g%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-20-1-2022_.pdf?ver=-anHx2gp8CGXvvV2NO7D7g%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202201"
+      },
+      {
+        "source": "requests",
+        "text": "Febrero",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-23-02-2022.pdf?ver=4-Fs4Nt3L6c42fryH2EPSA%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-23-02-2022.pdf?ver=4-Fs4Nt3L6c42fryH2EPSA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202202"
+      },
+      {
+        "source": "requests",
+        "text": "Marzo",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/afina-mar-18.pdf?ver=r_ZS6REM-dh4P-5i4r5C_A%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/afina-mar-18.pdf?ver=r_ZS6REM-dh4P-5i4r5C_A%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202203"
+      },
+      {
+        "source": "requests",
+        "text": "Abril",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-21-04-2022.pdf?ver=wZyiIu83wmgobTWxaMRC2w%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-21-04-2022.pdf?ver=wZyiIu83wmgobTWxaMRC2w%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202204"
+      },
+      {
+        "source": "requests",
+        "text": "Mayo",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_may-21.pdf?ver=w9cpMgQjuqgTJcc7mHOhDA%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_may-21.pdf?ver=w9cpMgQjuqgTJcc7mHOhDA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202205"
+      },
+      {
+        "source": "requests",
+        "text": "Junio",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_Jun-23.pdf?ver=p-jN9Gc4c1qyCVj2EY2IVg%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_Jun-23.pdf?ver=p-jN9Gc4c1qyCVj2EY2IVg%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202206"
+      },
+      {
+        "source": "requests",
+        "text": "Julio",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_jul-21.pdf?ver=xZcHHgdYOWcYmvYY0YDhRw%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_jul-21.pdf?ver=xZcHHgdYOWcYmvYY0YDhRw%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202207"
+      },
+      {
+        "source": "requests",
+        "text": "Agosto",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/ASLEG_2022_08_19-10.pdf?ver=mGl4jXr1lMNFBukeHBkx5A%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/ASLEG_2022_08_19-10.pdf?ver=mGl4jXr1lMNFBukeHBkx5A%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202208"
+      },
+      {
+        "source": "requests",
+        "text": "Octubre",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_Oc-21.pdf?ver=xD_gfW7jLkCDmHQKQf7OsA%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_Oc-21.pdf?ver=xD_gfW7jLkCDmHQKQf7OsA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202210"
+      },
+      {
+        "source": "requests",
+        "text": "Noviembre",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-21-11-2022.pdf?ver=wZyiIu83wmgobTWxaMRC2w%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-21-11-2022.pdf?ver=wZyiIu83wmgobTWxaMRC2w%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202211"
+      },
+      {
+        "source": "requests",
+        "text": "Dicimebre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tasas%20y%20Subsidios%202022/AFINIA-21-12-2022-dic.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tasas%20y%20Subsidios%202022/AFINIA-21-12-2022-dic.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202212"
+      },
+      {
+        "source": "requests",
+        "text": "Enero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Enero.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Enero.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202301"
+      },
+      {
+        "source": "requests",
+        "text": "Febrero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Febrero.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Febrero.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202302"
+      },
+      {
+        "source": "requests",
+        "text": "Marzo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Marzo.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Marzo.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202303"
+      },
+      {
+        "source": "requests",
+        "text": "Abril",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Abril.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Abril.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202304"
+      },
+      {
+        "source": "requests",
+        "text": "Mayo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-May.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-May.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202305"
+      },
+      {
+        "source": "requests",
+        "text": "Junio",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Junio.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Junio.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202306"
+      },
+      {
+        "source": "requests",
+        "text": "Julio",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Julio.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Julio.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202307"
+      },
+      {
+        "source": "requests",
+        "text": "Agosto",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Agosto.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Agosto.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202308"
+      },
+      {
+        "source": "requests",
+        "text": "Septiembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Septiembre.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Septiembre.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202309"
+      },
+      {
+        "source": "requests",
+        "text": "Octubre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Octubre/AFINIA-tarifas-Octubre.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Octubre/AFINIA-tarifas-Octubre.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202310"
+      },
+      {
+        "source": "requests",
+        "text": "Noviembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Noviembre/AFINIA%20tarifas%20noviembre%202023.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Noviembre/AFINIA%20tarifas%20noviembre%202023.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202311"
+      },
+      {
+        "source": "requests",
+        "text": "Diciembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Diciembre/AFINIA%20tarifas%20diciembre%202023.pdf?ver=xwEghgvXohBuxnIvTj1uTA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Diciembre/AFINIA%20tarifas%20diciembre%202023.pdf?ver=xwEghgvXohBuxnIvTj1uTA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202312"
+      },
+      {
+        "source": "requests",
+        "text": "Enero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Enero/AFINIA%20tarifas%20enero%202024.pdf?ver=baC_Me1JpmS5l1m6Tc_GQQ%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Enero/AFINIA%20tarifas%20enero%202024.pdf?ver=baC_Me1JpmS5l1m6Tc_GQQ%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202401"
+      },
+      {
+        "source": "requests",
+        "text": "Febrero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Febrero/AFINIA-tarifas-24x3col-AL-fb-19.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Febrero/AFINIA-tarifas-24x3col-AL-fb-19.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202402"
+      },
+      {
+        "source": "requests",
+        "text": "Marzo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Marzo/AFINIA%20tarifas%20marzo%202024.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Marzo/AFINIA%20tarifas%20marzo%202024.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202403"
+      },
+      {
+        "source": "requests",
+        "text": "Abril",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Abril/AFINIA%20tarifas%20abril%202024.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Abril/AFINIA%20tarifas%20abril%202024.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202404"
+      },
+      {
+        "source": "requests",
+        "text": "Mayo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Mayo/AFINIA%20tarifas%20mayo%202024.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Mayo/AFINIA%20tarifas%20mayo%202024.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202405"
+      },
+      {
+        "source": "requests",
+        "text": "Junio",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Junio/AFINIA%20tarifas%20junio%202024.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Junio/AFINIA%20tarifas%20junio%202024.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202406"
+      },
+      {
+        "source": "requests",
+        "text": "Julio",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Julio/AFINIA%20tarifas%20julio%202024.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Julio/AFINIA%20tarifas%20julio%202024.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202407"
+      },
+      {
+        "source": "requests",
+        "text": "Agosto",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Agosto/AFINIA%20tarifas%20_24x3col_AL_Ag%2017.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Agosto/AFINIA%20tarifas%20_24x3col_AL_Ag%2017.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202408"
+      },
+      {
+        "source": "requests",
+        "text": "Septiembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Septiembre/AFINIA%20tarifas%20_24x3col_AL_sep%2019%20(003).pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Septiembre/AFINIA%20tarifas%20_24x3col_AL_sep%2019%20(003).pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202409"
+      },
+      {
+        "source": "requests",
+        "text": "Octubre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Octubre/AFINIA%20tarifas%20octubre%202024.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Octubre/AFINIA%20tarifas%20octubre%202024.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202410"
+      },
+      {
+        "source": "requests",
+        "text": "Noviembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Noviembre/AFINIA%20tarifas%20_24x3col_AL_Nv%2019..ok.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Noviembre/AFINIA%20tarifas%20_24x3col_AL_Nv%2019..ok.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202411"
+      },
+      {
+        "source": "requests",
+        "text": "Diciembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Diciembre/AFINIA%20tarifas%20_24x3col_AL_Dc%2019%20(1).pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Diciembre/AFINIA%20tarifas%20_24x3col_AL_Dc%2019%20(1).pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202412"
+      },
+      {
+        "source": "requests",
+        "text": "Enero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Enero/AFINIA%20tarifas%20_24x3col_AL_En%2018.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Enero/AFINIA%20tarifas%20_24x3col_AL_En%2018.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202501"
+      },
+      {
+        "source": "requests",
+        "text": "Febrero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Febrero/AFINIA%20tarifas%20_24x3col_AL_Fb%2018.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Febrero/AFINIA%20tarifas%20_24x3col_AL_Fb%2018.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202502"
+      },
+      {
+        "source": "requests",
+        "text": "Marzo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Marzo/AFINIA%20tarifas%20_24x3col_AL_mz%2019.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Marzo/AFINIA%20tarifas%20_24x3col_AL_mz%2019.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202503"
+      },
+      {
+        "source": "requests",
+        "text": "Abril",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Abril/AFINIA%20tarifas%20abril%202025.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Abril/AFINIA%20tarifas%20abril%202025.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202504"
+      },
+      {
+        "source": "requests",
+        "text": "Mayo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Mayo/AFINIA%20tarifas%20_24x3col_AL_MAYO.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Mayo/AFINIA%20tarifas%20_24x3col_AL_MAYO.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202505"
+      },
+      {
+        "source": "requests",
+        "text": "Junio",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Junio/Tarifa%20afinia%2020-06-2025.pdf?ver=Bh6XQoRf7u9pLvKR9NVdcA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Junio/Tarifa%20afinia%2020-06-2025.pdf?ver=Bh6XQoRf7u9pLvKR9NVdcA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202506"
+      },
+      {
+        "source": "requests",
+        "text": "Julio",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Julio/Tarifa%20afinia%2019-07-2025.pdf?ver=GZaQgNU-uJsXiUuibCt88A%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Julio/Tarifa%20afinia%2019-07-2025.pdf?ver=GZaQgNU-uJsXiUuibCt88A%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202507"
+      },
+      {
+        "source": "requests",
+        "text": "Agosto",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Agosto/AFINIA%20tarifas%20_24x3col_AL_Ag%2020.pdf?ver=bq6QSYUn_SGhT64PFD6osw%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Agosto/AFINIA%20tarifas%20_24x3col_AL_Ag%2020.pdf?ver=bq6QSYUn_SGhT64PFD6osw%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202508"
+      },
+      {
+        "source": "requests",
+        "text": "Septiembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Septiembre/Tarifa%20afinia%2019-09-2025.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Septiembre/Tarifa%20afinia%2019-09-2025.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202509"
+      },
+      {
+        "source": "requests",
+        "text": "Octubre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Octubre/Tarifa%20afinia%2018-10-2025.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Octubre/Tarifa%20afinia%2018-10-2025.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202510"
+      },
+      {
+        "source": "requests",
+        "text": "Diciembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Diciembre/Tarifa%20afinia%2019-11-2025.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Diciembre/Tarifa%20afinia%2019-11-2025.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202511"
+      },
+      {
+        "source": "requests",
+        "text": "Noviembre",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Noviembre/Tarifa%20afinia%2019-11-2025.pdf?ver=sza9mIQRHUGQsCdZu-RRqA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Noviembre/Tarifa%20afinia%2019-11-2025.pdf?ver=sza9mIQRHUGQsCdZu-RRqA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202511"
+      },
+      {
+        "source": "requests",
+        "text": "Enero",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/Enero/Tarifa%20afinia%2019-01-2026.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/Enero/Tarifa%20afinia%2019-01-2026.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202601"
+      },
+      {
+        "source": "requests",
+        "text": "Febrero",
+        "href": "/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/Febrero/tarifa-afinia-19-02-2026.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/Febrero/tarifa-afinia-19-02-2026.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202602"
+      },
+      {
+        "source": "requests",
+        "text": "Marzo",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/marzo/03.%20AFINIA%20tarifas%20Mz%2019.pdf?ver=Tcsdhpgs8LhlIja3raAyag%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/marzo/03.%20AFINIA%20tarifas%20Mz%2019.pdf?ver=Tcsdhpgs8LhlIja3raAyag%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202603"
+      },
+      {
+        "source": "requests",
+        "text": "Abril",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/abril/tarifa-afinia-22-04-2026.pdf?ver=_FGiCMlXowWYglYzSYJHKA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/abril/tarifa-afinia-22-04-2026.pdf?ver=_FGiCMlXowWYglYzSYJHKA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202604"
+      },
+      {
+        "source": "requests",
+        "text": "Descargar",
+        "href": "/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/mayo/pagina-aviso.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/mayo/pagina-aviso.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202605"
+      },
+      {
+        "source": "requests",
+        "text": "Mayo",
+        "href": "/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/mayo/tarifa-afinia-20-05-2026.pdf",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/mayo/tarifa-afinia-20-05-2026.pdf",
+        "resource_type": "pdf",
+        "seems_monthly": true,
+        "cycle": "202605"
+      },
+      {
+        "source": "requests",
+        "text": "Política de protección de datos personales",
+        "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos-inicio/Politica-de-Proteccion-de-Datos-AFINIA-VF.pdf?ver=ctk_tdRvTael4cmH4oFiLA%3d%3d",
+        "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos-inicio/Politica-de-Proteccion-de-Datos-AFINIA-VF.pdf?ver=ctk_tdRvTael4cmH4oFiLA%3d%3d",
+        "resource_type": "pdf",
+        "seems_monthly": false,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Descargar",
+        "href": "https://afinia.com.co/Portals/afinia/documentos/Coyuntura%20tarifaria/Coyuntura-4.jpg?ver=Qn4lbh13x9aJB4X-gi2zvA%3d%3d",
+        "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Coyuntura%20tarifaria/Coyuntura-4.jpg?ver=Qn4lbh13x9aJB4X-gi2zvA%3d%3d",
+        "resource_type": "html",
+        "seems_monthly": true,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Coyuntura tarifaria",
+        "href": "https://afinia.com.co/inicio/coyuntura-tarifaria",
+        "absolute_url": "https://afinia.com.co/inicio/coyuntura-tarifaria",
+        "resource_type": "html",
+        "seems_monthly": true,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Tarifas y Subsidios",
+        "href": "https://afinia.com.co/inicio/tarifas-y-subsidios",
+        "absolute_url": "https://afinia.com.co/inicio/tarifas-y-subsidios",
+        "resource_type": "html",
+        "seems_monthly": true,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Tarifa 2020",
+        "href": "javascript:void(0);",
+        "absolute_url": "javascript:void(0);",
+        "resource_type": "html",
+        "seems_monthly": true,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Julio",
+        "href": "https://afinia.com.co/DnnImageHandler.ashx?mode=securefile&fileId=7605&MaxWidth=74&MaxHeight=42",
+        "absolute_url": "https://afinia.com.co/DnnImageHandler.ashx?mode=securefile&fileId=7605&MaxWidth=74&MaxHeight=42",
+        "resource_type": "html",
+        "seems_monthly": false,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Energía empresas",
+        "href": "https://afinia.com.co/empresas/energia-empresas",
+        "absolute_url": "https://afinia.com.co/empresas/energia-empresas",
+        "resource_type": "html",
+        "seems_monthly": false,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Servicio de energía",
+        "href": "https://afinia.com.co/empresas/servicio-de-energia",
+        "absolute_url": "https://afinia.com.co/empresas/servicio-de-energia",
+        "resource_type": "html",
+        "seems_monthly": false,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Caribe Cambia Tu Energía",
+        "href": "https://afinia.com.co/hogares/caribe-cambia-tu-energia",
+        "absolute_url": "https://afinia.com.co/hogares/caribe-cambia-tu-energia",
+        "resource_type": "html",
+        "seems_monthly": false,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Energía a la medida",
+        "href": "https://afinia.com.co/hogares/energia-a-la-medida",
+        "absolute_url": "https://afinia.com.co/hogares/energia-a-la-medida",
+        "resource_type": "html",
+        "seems_monthly": false,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Energia hogar",
+        "href": "https://afinia.com.co/hogares/energia-hogar",
+        "absolute_url": "https://afinia.com.co/hogares/energia-hogar",
+        "resource_type": "html",
+        "seems_monthly": false,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "modificaciones CCU",
+        "href": "https://afinia.com.co/inicio/modificaciones-ccu",
+        "absolute_url": "https://afinia.com.co/inicio/modificaciones-ccu",
+        "resource_type": "html",
+        "seems_monthly": false,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Solicitar servicios de energía",
+        "href": "https://afinia.com.co/inicio/solicitar-servicios-de-energia",
+        "absolute_url": "https://afinia.com.co/inicio/solicitar-servicios-de-energia",
+        "resource_type": "html",
+        "seems_monthly": false,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Preguntas frecuentes",
+        "href": "https://afinia.com.co/somos-afinia/preguntas-frecuentes",
+        "absolute_url": "https://afinia.com.co/somos-afinia/preguntas-frecuentes",
+        "resource_type": "html",
+        "seems_monthly": false,
+        "cycle": null
+      },
+      {
+        "source": "requests",
+        "text": "Ir a EPM",
+        "href": "https://cu.epm.com.co/clientesyusuarios/",
+        "absolute_url": "https://cu.epm.com.co/clientesyusuarios/",
+        "resource_type": "html",
+        "seems_monthly": false,
+        "cycle": null
+      }
+    ]
+  },
+  "all_links": [
+    {
+      "source": "requests",
+      "text": "Septimebre",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/LAREP_2022_09_20-17.pdf?ver=M4-qKDoBWegEuCSzsbeKzw%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/LAREP_2022_09_20-17.pdf?ver=M4-qKDoBWegEuCSzsbeKzw%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Septimebre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/09.%20AFINIA_tarifas_sep-23.pdf?ver=IjsP1aOxc6Wxg3IV7qFjLg%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/09.%20AFINIA_tarifas_sep-23.pdf?ver=IjsP1aOxc6Wxg3IV7qFjLg%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Dicimebre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/12.%20AFINIA_tarifas_dic-22.pdf?ver=sX28NZp9XNNpn6NEV8XSNA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/12.%20AFINIA_tarifas_dic-22.pdf?ver=sX28NZp9XNNpn6NEV8XSNA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Enero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/1.%20ENERO%202020.pdf?ver=Nb72nRVNN9_3F6b1V6LxDA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/1.%20ENERO%202020.pdf?ver=Nb72nRVNN9_3F6b1V6LxDA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202001"
+    },
+    {
+      "source": "requests",
+      "text": "Febrero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/2.%20FEBRERO%202020.pdf?ver=daRo9eAiagGuFXmEA-tV8w%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/2.%20FEBRERO%202020.pdf?ver=daRo9eAiagGuFXmEA-tV8w%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202002"
+    },
+    {
+      "source": "requests",
+      "text": "Marzo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/3.%20MARZO%202020.pdf?ver=zja7nhxDYjkXwFk1YIA_vw%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/3.%20MARZO%202020.pdf?ver=zja7nhxDYjkXwFk1YIA_vw%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202003"
+    },
+    {
+      "source": "requests",
+      "text": "Abril",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/4.%20ABRIL%202020.pdf?ver=6VALRiYK6q2vqO3C-bqenQ%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/4.%20ABRIL%202020.pdf?ver=6VALRiYK6q2vqO3C-bqenQ%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202004"
+    },
+    {
+      "source": "requests",
+      "text": "Mayo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/5.%20MAYO%202020.pdf?ver=ueRdj1IsuEcy6hy4gFgXMQ%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/5.%20MAYO%202020.pdf?ver=ueRdj1IsuEcy6hy4gFgXMQ%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202005"
+    },
+    {
+      "source": "requests",
+      "text": "Junio",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/6.%20JUNIO%202020.pdf?ver=q7h8JbXUknJoS3iU0ErfiA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/6.%20JUNIO%202020.pdf?ver=q7h8JbXUknJoS3iU0ErfiA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202006"
+    },
+    {
+      "source": "requests",
+      "text": "Agosto",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/8.%20AGOSTO%202020.pdf?ver=mx-CbvHjWbqyOFHvl25bFA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/8.%20AGOSTO%202020.pdf?ver=mx-CbvHjWbqyOFHvl25bFA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202008"
+    },
+    {
+      "source": "requests",
+      "text": "Septimebre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/9.%20SEPTIEMBRE%202020.pdf?ver=CoadXnl7FjkdPoE96rGWwQ%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/9.%20SEPTIEMBRE%202020.pdf?ver=CoadXnl7FjkdPoE96rGWwQ%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202009"
+    },
+    {
+      "source": "requests",
+      "text": "Octubre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/10.%20OCTUBRE%202020.pdf?ver=s8pIGumKBfTUF_vE7BTnIw%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/10.%20OCTUBRE%202020.pdf?ver=s8pIGumKBfTUF_vE7BTnIw%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202010"
+    },
+    {
+      "source": "requests",
+      "text": "Noviembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/11.%20NOVIEMBRE%202020.pdf?ver=s0UN6MYtzzdLKRrTkAau2A%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/11.%20NOVIEMBRE%202020.pdf?ver=s0UN6MYtzzdLKRrTkAau2A%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202011"
+    },
+    {
+      "source": "requests",
+      "text": "Dicimebre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/12.%20DICIEMBRE%202020.pdf?ver=X1IedbF32FY9H8CRLFTA5w%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202020/12.%20DICIEMBRE%202020.pdf?ver=X1IedbF32FY9H8CRLFTA5w%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202012"
+    },
+    {
+      "source": "requests",
+      "text": "Enero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/01.%20AFINIA_tarifas_ene-15.pdf?ver=zFQCwQkvRaRqG28kAxMWTQ%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/01.%20AFINIA_tarifas_ene-15.pdf?ver=zFQCwQkvRaRqG28kAxMWTQ%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202101"
+    },
+    {
+      "source": "requests",
+      "text": "Febrero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/02.%20AFINIA_tarifas_feb-15-2021-remplaza-la-publicacion-del-15-de-febrero.pdf?ver=dEYqfgKcUfbx_YujAW56Xw%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/02.%20AFINIA_tarifas_feb-15-2021-remplaza-la-publicacion-del-15-de-febrero.pdf?ver=dEYqfgKcUfbx_YujAW56Xw%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202102"
+    },
+    {
+      "source": "requests",
+      "text": "Marzo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/03.%20AFINIA_tarifas_mar-17.pdf?ver=bjstcQC1L_ciOFPJodJWnA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/03.%20AFINIA_tarifas_mar-17.pdf?ver=bjstcQC1L_ciOFPJodJWnA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202103"
+    },
+    {
+      "source": "requests",
+      "text": "Abril",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/04.%20AFINIA_tarifas_abr-17.pdf?ver=kNtI2En2AtyDGacapzJNrA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/04.%20AFINIA_tarifas_abr-17.pdf?ver=kNtI2En2AtyDGacapzJNrA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202104"
+    },
+    {
+      "source": "requests",
+      "text": "Mayo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/05.%20AFINIA_tarifas_may-15.pdf?ver=MtMCMJSnshyVcXImdme4NA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/05.%20AFINIA_tarifas_may-15.pdf?ver=MtMCMJSnshyVcXImdme4NA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202105"
+    },
+    {
+      "source": "requests",
+      "text": "Junio",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/06.%20AFINIA_tarifas_jun-16.pdf?ver=ZvYt02YoOpW43Mrhf59Bfw%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/06.%20AFINIA_tarifas_jun-16.pdf?ver=ZvYt02YoOpW43Mrhf59Bfw%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202106"
+    },
+    {
+      "source": "requests",
+      "text": "Julio",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/07.%20AFINIA_tarifas_jul-21.pdf?ver=b_fAzSha966tj2NafrxbzA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/07.%20AFINIA_tarifas_jul-21.pdf?ver=b_fAzSha966tj2NafrxbzA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202107"
+    },
+    {
+      "source": "requests",
+      "text": "Agosto",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/08.%20AFINIA_tarifas_ago-19.pdf?ver=Gzb491z0FbvKyAP2casSdw%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/08.%20AFINIA_tarifas_ago-19.pdf?ver=Gzb491z0FbvKyAP2casSdw%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202108"
+    },
+    {
+      "source": "requests",
+      "text": "Octubre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/10.%20AFINIA_tarifas_oct-21.pdf?ver=wUG4FfViIzagRDqaQDYC5A%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/10.%20AFINIA_tarifas_oct-21.pdf?ver=wUG4FfViIzagRDqaQDYC5A%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202110"
+    },
+    {
+      "source": "requests",
+      "text": "Noviembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/11.%20AFINIA_tarifas_nov-19.pdf?ver=kNtI2En2AtyDGacapzJNrA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202021/11.%20AFINIA_tarifas_nov-19.pdf?ver=kNtI2En2AtyDGacapzJNrA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202111"
+    },
+    {
+      "source": "requests",
+      "text": "Enero",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-20-1-2022_.pdf?ver=-anHx2gp8CGXvvV2NO7D7g%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-20-1-2022_.pdf?ver=-anHx2gp8CGXvvV2NO7D7g%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202201"
+    },
+    {
+      "source": "requests",
+      "text": "Febrero",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-23-02-2022.pdf?ver=4-Fs4Nt3L6c42fryH2EPSA%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-23-02-2022.pdf?ver=4-Fs4Nt3L6c42fryH2EPSA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202202"
+    },
+    {
+      "source": "requests",
+      "text": "Marzo",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/afina-mar-18.pdf?ver=r_ZS6REM-dh4P-5i4r5C_A%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/afina-mar-18.pdf?ver=r_ZS6REM-dh4P-5i4r5C_A%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202203"
+    },
+    {
+      "source": "requests",
+      "text": "Abril",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-21-04-2022.pdf?ver=wZyiIu83wmgobTWxaMRC2w%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/Afinia-21-04-2022.pdf?ver=wZyiIu83wmgobTWxaMRC2w%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202204"
+    },
+    {
+      "source": "requests",
+      "text": "Mayo",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_may-21.pdf?ver=w9cpMgQjuqgTJcc7mHOhDA%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_may-21.pdf?ver=w9cpMgQjuqgTJcc7mHOhDA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202205"
+    },
+    {
+      "source": "requests",
+      "text": "Junio",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_Jun-23.pdf?ver=p-jN9Gc4c1qyCVj2EY2IVg%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_Jun-23.pdf?ver=p-jN9Gc4c1qyCVj2EY2IVg%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202206"
+    },
+    {
+      "source": "requests",
+      "text": "Julio",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_jul-21.pdf?ver=xZcHHgdYOWcYmvYY0YDhRw%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_jul-21.pdf?ver=xZcHHgdYOWcYmvYY0YDhRw%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202207"
+    },
+    {
+      "source": "requests",
+      "text": "Agosto",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/ASLEG_2022_08_19-10.pdf?ver=mGl4jXr1lMNFBukeHBkx5A%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/ASLEG_2022_08_19-10.pdf?ver=mGl4jXr1lMNFBukeHBkx5A%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202208"
+    },
+    {
+      "source": "requests",
+      "text": "Octubre",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_Oc-21.pdf?ver=xD_gfW7jLkCDmHQKQf7OsA%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-tarifas-_24x3col_AL_Oc-21.pdf?ver=xD_gfW7jLkCDmHQKQf7OsA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202210"
+    },
+    {
+      "source": "requests",
+      "text": "Noviembre",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-21-11-2022.pdf?ver=wZyiIu83wmgobTWxaMRC2w%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos Tarifas y subsidios/Tasas y Subsidios 2022/AFINIA-21-11-2022.pdf?ver=wZyiIu83wmgobTWxaMRC2w%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202211"
+    },
+    {
+      "source": "requests",
+      "text": "Dicimebre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tasas%20y%20Subsidios%202022/AFINIA-21-12-2022-dic.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tasas%20y%20Subsidios%202022/AFINIA-21-12-2022-dic.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202212"
+    },
+    {
+      "source": "requests",
+      "text": "Enero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Enero.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Enero.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202301"
+    },
+    {
+      "source": "requests",
+      "text": "Febrero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Febrero.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Febrero.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202302"
+    },
+    {
+      "source": "requests",
+      "text": "Marzo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Marzo.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Marzo.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202303"
+    },
+    {
+      "source": "requests",
+      "text": "Abril",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Abril.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Abril.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202304"
+    },
+    {
+      "source": "requests",
+      "text": "Mayo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-May.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-May.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202305"
+    },
+    {
+      "source": "requests",
+      "text": "Junio",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Junio.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Junio.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202306"
+    },
+    {
+      "source": "requests",
+      "text": "Julio",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Julio.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Julio.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202307"
+    },
+    {
+      "source": "requests",
+      "text": "Agosto",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Agosto.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Agosto.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202308"
+    },
+    {
+      "source": "requests",
+      "text": "Septiembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Septiembre.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/AFINIA-tarifas-Septiembre.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202309"
+    },
+    {
+      "source": "requests",
+      "text": "Octubre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Octubre/AFINIA-tarifas-Octubre.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Octubre/AFINIA-tarifas-Octubre.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202310"
+    },
+    {
+      "source": "requests",
+      "text": "Noviembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Noviembre/AFINIA%20tarifas%20noviembre%202023.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Noviembre/AFINIA%20tarifas%20noviembre%202023.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202311"
+    },
+    {
+      "source": "requests",
+      "text": "Diciembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Diciembre/AFINIA%20tarifas%20diciembre%202023.pdf?ver=xwEghgvXohBuxnIvTj1uTA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%20y%20Subsidios%202023/Diciembre/AFINIA%20tarifas%20diciembre%202023.pdf?ver=xwEghgvXohBuxnIvTj1uTA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202312"
+    },
+    {
+      "source": "requests",
+      "text": "Enero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Enero/AFINIA%20tarifas%20enero%202024.pdf?ver=baC_Me1JpmS5l1m6Tc_GQQ%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Enero/AFINIA%20tarifas%20enero%202024.pdf?ver=baC_Me1JpmS5l1m6Tc_GQQ%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202401"
+    },
+    {
+      "source": "requests",
+      "text": "Febrero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Febrero/AFINIA-tarifas-24x3col-AL-fb-19.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Febrero/AFINIA-tarifas-24x3col-AL-fb-19.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202402"
+    },
+    {
+      "source": "requests",
+      "text": "Marzo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Marzo/AFINIA%20tarifas%20marzo%202024.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Marzo/AFINIA%20tarifas%20marzo%202024.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202403"
+    },
+    {
+      "source": "requests",
+      "text": "Abril",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Abril/AFINIA%20tarifas%20abril%202024.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Abril/AFINIA%20tarifas%20abril%202024.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202404"
+    },
+    {
+      "source": "requests",
+      "text": "Mayo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Mayo/AFINIA%20tarifas%20mayo%202024.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Mayo/AFINIA%20tarifas%20mayo%202024.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202405"
+    },
+    {
+      "source": "requests",
+      "text": "Junio",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Junio/AFINIA%20tarifas%20junio%202024.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Junio/AFINIA%20tarifas%20junio%202024.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202406"
+    },
+    {
+      "source": "requests",
+      "text": "Julio",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Julio/AFINIA%20tarifas%20julio%202024.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Julio/AFINIA%20tarifas%20julio%202024.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202407"
+    },
+    {
+      "source": "requests",
+      "text": "Agosto",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Agosto/AFINIA%20tarifas%20_24x3col_AL_Ag%2017.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Agosto/AFINIA%20tarifas%20_24x3col_AL_Ag%2017.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202408"
+    },
+    {
+      "source": "requests",
+      "text": "Septiembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Septiembre/AFINIA%20tarifas%20_24x3col_AL_sep%2019%20(003).pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Septiembre/AFINIA%20tarifas%20_24x3col_AL_sep%2019%20(003).pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202409"
+    },
+    {
+      "source": "requests",
+      "text": "Octubre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Octubre/AFINIA%20tarifas%20octubre%202024.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Octubre/AFINIA%20tarifas%20octubre%202024.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202410"
+    },
+    {
+      "source": "requests",
+      "text": "Noviembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Noviembre/AFINIA%20tarifas%20_24x3col_AL_Nv%2019..ok.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Noviembre/AFINIA%20tarifas%20_24x3col_AL_Nv%2019..ok.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202411"
+    },
+    {
+      "source": "requests",
+      "text": "Diciembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Diciembre/AFINIA%20tarifas%20_24x3col_AL_Dc%2019%20(1).pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202024/Diciembre/AFINIA%20tarifas%20_24x3col_AL_Dc%2019%20(1).pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202412"
+    },
+    {
+      "source": "requests",
+      "text": "Enero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Enero/AFINIA%20tarifas%20_24x3col_AL_En%2018.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Enero/AFINIA%20tarifas%20_24x3col_AL_En%2018.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202501"
+    },
+    {
+      "source": "requests",
+      "text": "Febrero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Febrero/AFINIA%20tarifas%20_24x3col_AL_Fb%2018.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Febrero/AFINIA%20tarifas%20_24x3col_AL_Fb%2018.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202502"
+    },
+    {
+      "source": "requests",
+      "text": "Marzo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Marzo/AFINIA%20tarifas%20_24x3col_AL_mz%2019.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Marzo/AFINIA%20tarifas%20_24x3col_AL_mz%2019.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202503"
+    },
+    {
+      "source": "requests",
+      "text": "Abril",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Abril/AFINIA%20tarifas%20abril%202025.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Abril/AFINIA%20tarifas%20abril%202025.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202504"
+    },
+    {
+      "source": "requests",
+      "text": "Mayo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Mayo/AFINIA%20tarifas%20_24x3col_AL_MAYO.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Mayo/AFINIA%20tarifas%20_24x3col_AL_MAYO.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202505"
+    },
+    {
+      "source": "requests",
+      "text": "Junio",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Junio/Tarifa%20afinia%2020-06-2025.pdf?ver=Bh6XQoRf7u9pLvKR9NVdcA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Junio/Tarifa%20afinia%2020-06-2025.pdf?ver=Bh6XQoRf7u9pLvKR9NVdcA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202506"
+    },
+    {
+      "source": "requests",
+      "text": "Julio",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Julio/Tarifa%20afinia%2019-07-2025.pdf?ver=GZaQgNU-uJsXiUuibCt88A%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Julio/Tarifa%20afinia%2019-07-2025.pdf?ver=GZaQgNU-uJsXiUuibCt88A%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202507"
+    },
+    {
+      "source": "requests",
+      "text": "Agosto",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Agosto/AFINIA%20tarifas%20_24x3col_AL_Ag%2020.pdf?ver=bq6QSYUn_SGhT64PFD6osw%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Agosto/AFINIA%20tarifas%20_24x3col_AL_Ag%2020.pdf?ver=bq6QSYUn_SGhT64PFD6osw%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202508"
+    },
+    {
+      "source": "requests",
+      "text": "Septiembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Septiembre/Tarifa%20afinia%2019-09-2025.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Septiembre/Tarifa%20afinia%2019-09-2025.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202509"
+    },
+    {
+      "source": "requests",
+      "text": "Octubre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Octubre/Tarifa%20afinia%2018-10-2025.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Octubre/Tarifa%20afinia%2018-10-2025.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202510"
+    },
+    {
+      "source": "requests",
+      "text": "Diciembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Diciembre/Tarifa%20afinia%2019-11-2025.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Diciembre/Tarifa%20afinia%2019-11-2025.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202511"
+    },
+    {
+      "source": "requests",
+      "text": "Noviembre",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Noviembre/Tarifa%20afinia%2019-11-2025.pdf?ver=sza9mIQRHUGQsCdZu-RRqA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifa%202025/Noviembre/Tarifa%20afinia%2019-11-2025.pdf?ver=sza9mIQRHUGQsCdZu-RRqA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202511"
+    },
+    {
+      "source": "requests",
+      "text": "Enero",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/Enero/Tarifa%20afinia%2019-01-2026.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/Enero/Tarifa%20afinia%2019-01-2026.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202601"
+    },
+    {
+      "source": "requests",
+      "text": "Febrero",
+      "href": "/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/Febrero/tarifa-afinia-19-02-2026.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/Febrero/tarifa-afinia-19-02-2026.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202602"
+    },
+    {
+      "source": "requests",
+      "text": "Marzo",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/marzo/03.%20AFINIA%20tarifas%20Mz%2019.pdf?ver=Tcsdhpgs8LhlIja3raAyag%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/marzo/03.%20AFINIA%20tarifas%20Mz%2019.pdf?ver=Tcsdhpgs8LhlIja3raAyag%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202603"
+    },
+    {
+      "source": "requests",
+      "text": "Abril",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/abril/tarifa-afinia-22-04-2026.pdf?ver=_FGiCMlXowWYglYzSYJHKA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/abril/tarifa-afinia-22-04-2026.pdf?ver=_FGiCMlXowWYglYzSYJHKA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202604"
+    },
+    {
+      "source": "requests",
+      "text": "Descargar",
+      "href": "/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/mayo/pagina-aviso.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/mayo/pagina-aviso.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202605"
+    },
+    {
+      "source": "requests",
+      "text": "Mayo",
+      "href": "/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/mayo/tarifa-afinia-20-05-2026.pdf",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Documentos%20Tarifas%20y%20subsidios/Tarifas%202026/mayo/tarifa-afinia-20-05-2026.pdf",
+      "resource_type": "pdf",
+      "seems_monthly": true,
+      "cycle": "202605"
+    },
+    {
+      "source": "requests",
+      "text": "Política de protección de datos personales",
+      "href": "http://afinia.com.co/Portals/afinia/documentos/Documentos-inicio/Politica-de-Proteccion-de-Datos-AFINIA-VF.pdf?ver=ctk_tdRvTael4cmH4oFiLA%3d%3d",
+      "absolute_url": "http://afinia.com.co/Portals/afinia/documentos/Documentos-inicio/Politica-de-Proteccion-de-Datos-AFINIA-VF.pdf?ver=ctk_tdRvTael4cmH4oFiLA%3d%3d",
+      "resource_type": "pdf",
+      "seems_monthly": false,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Descargar",
+      "href": "https://afinia.com.co/Portals/afinia/documentos/Coyuntura%20tarifaria/Coyuntura-4.jpg?ver=Qn4lbh13x9aJB4X-gi2zvA%3d%3d",
+      "absolute_url": "https://afinia.com.co/Portals/afinia/documentos/Coyuntura%20tarifaria/Coyuntura-4.jpg?ver=Qn4lbh13x9aJB4X-gi2zvA%3d%3d",
+      "resource_type": "html",
+      "seems_monthly": true,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Coyuntura tarifaria",
+      "href": "https://afinia.com.co/inicio/coyuntura-tarifaria",
+      "absolute_url": "https://afinia.com.co/inicio/coyuntura-tarifaria",
+      "resource_type": "html",
+      "seems_monthly": true,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Tarifas y Subsidios",
+      "href": "https://afinia.com.co/inicio/tarifas-y-subsidios",
+      "absolute_url": "https://afinia.com.co/inicio/tarifas-y-subsidios",
+      "resource_type": "html",
+      "seems_monthly": true,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Tarifa 2020",
+      "href": "javascript:void(0);",
+      "absolute_url": "javascript:void(0);",
+      "resource_type": "html",
+      "seems_monthly": true,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Julio",
+      "href": "https://afinia.com.co/DnnImageHandler.ashx?mode=securefile&fileId=7605&MaxWidth=74&MaxHeight=42",
+      "absolute_url": "https://afinia.com.co/DnnImageHandler.ashx?mode=securefile&fileId=7605&MaxWidth=74&MaxHeight=42",
+      "resource_type": "html",
+      "seems_monthly": false,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Energía empresas",
+      "href": "https://afinia.com.co/empresas/energia-empresas",
+      "absolute_url": "https://afinia.com.co/empresas/energia-empresas",
+      "resource_type": "html",
+      "seems_monthly": false,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Servicio de energía",
+      "href": "https://afinia.com.co/empresas/servicio-de-energia",
+      "absolute_url": "https://afinia.com.co/empresas/servicio-de-energia",
+      "resource_type": "html",
+      "seems_monthly": false,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Caribe Cambia Tu Energía",
+      "href": "https://afinia.com.co/hogares/caribe-cambia-tu-energia",
+      "absolute_url": "https://afinia.com.co/hogares/caribe-cambia-tu-energia",
+      "resource_type": "html",
+      "seems_monthly": false,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Energía a la medida",
+      "href": "https://afinia.com.co/hogares/energia-a-la-medida",
+      "absolute_url": "https://afinia.com.co/hogares/energia-a-la-medida",
+      "resource_type": "html",
+      "seems_monthly": false,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Energia hogar",
+      "href": "https://afinia.com.co/hogares/energia-hogar",
+      "absolute_url": "https://afinia.com.co/hogares/energia-hogar",
+      "resource_type": "html",
+      "seems_monthly": false,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "modificaciones CCU",
+      "href": "https://afinia.com.co/inicio/modificaciones-ccu",
+      "absolute_url": "https://afinia.com.co/inicio/modificaciones-ccu",
+      "resource_type": "html",
+      "seems_monthly": false,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Solicitar servicios de energía",
+      "href": "https://afinia.com.co/inicio/solicitar-servicios-de-energia",
+      "absolute_url": "https://afinia.com.co/inicio/solicitar-servicios-de-energia",
+      "resource_type": "html",
+      "seems_monthly": false,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Preguntas frecuentes",
+      "href": "https://afinia.com.co/somos-afinia/preguntas-frecuentes",
+      "absolute_url": "https://afinia.com.co/somos-afinia/preguntas-frecuentes",
+      "resource_type": "html",
+      "seems_monthly": false,
+      "cycle": null
+    },
+    {
+      "source": "requests",
+      "text": "Ir a EPM",
+      "href": "https://cu.epm.com.co/clientesyusuarios/",
+      "absolute_url": "https://cu.epm.com.co/clientesyusuarios/",
+      "resource_type": "html",
+      "seems_monthly": false,
+      "cycle": null
+    }
+  ]
+}

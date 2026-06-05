@@ -51,6 +51,8 @@ class CensScraper(ScraperBase):
         (r"Nivel\s*3", "3"),
         (r"Nivel\s*4", "4"),
     ]
+    _ORDEN_COMPONENTES = ["G", "T", "D", "Cv", "PR", "R"]
+    _TOL_CU = 0.5
 
     def __init__(self, directorio_raw: Path | None = None) -> None:
         super().__init__(directorio_raw)
@@ -151,6 +153,7 @@ class CensScraper(ScraperBase):
         )
 
         df_filas: list[dict] = []
+        filas_descartadas = 0
         for nivel, componentes in data_por_nivel.items():
             fila: dict = {
                 "Fecha":           fecha,
@@ -161,12 +164,34 @@ class CensScraper(ScraperBase):
             }
             for _, comp_name in self.MAPEO_COMPONENTES:
                 fila[comp_name] = componentes.get(comp_name)
-            df_filas.append(fila)
+            diff_cu = self._diff_cu(fila)
+            if diff_cu is not None and diff_cu <= self._TOL_CU:
+                df_filas.append(fila)
+            else:
+                filas_descartadas += 1
+                self.logger.warning(
+                    "  Fila descartada por integridad CU (ciclo=%s nivel=%s diff=%s): %s",
+                    ciclo,
+                    nivel,
+                    f"{diff_cu:.4f}" if diff_cu is not None else "n/a",
+                    {k: fila.get(k) for k in self._ORDEN_COMPONENTES + ["CU"]},
+                )
 
         if not df_filas:
             raise RuntimeError(f"No se extrajeron filas de '{nombre_archivo}'.")
 
         df = pd.DataFrame(df_filas)
+        if filas_descartadas:
+            self.logger.warning(
+                "  %d fila(s) descartada(s) por integridad CU en %s",
+                filas_descartadas,
+                nombre_archivo,
+            )
+        if len(df) < 4:
+            self.logger.warning(
+                "  PDF procesado parcialmente: se esperaban 4 niveles, se obtuvieron %d",
+                len(df),
+            )
         self.logger.info("  → %d filas × %d columnas", len(df), len(df.columns))
         return df
 
@@ -209,6 +234,15 @@ class CensScraper(ScraperBase):
             return float(s)
         except ValueError:
             return None
+
+    def _diff_cu(self, fila: dict) -> float | None:
+        """Retorna |CU - suma(componentes)| o None si falta algún valor crítico."""
+        try:
+            cu = float(fila["CU"])
+            suma = sum(float(fila[c]) for c in self._ORDEN_COMPONENTES)
+        except (TypeError, ValueError, KeyError):
+            return None
+        return abs(cu - suma)
 
     def _ocr_pagina(self, pdf_bytes: bytes, pagina_idx: int, escala: float = 2.5) -> list:
         """Renderiza una página y aplica OCR. Devuelve lista de (y, x, texto)."""
