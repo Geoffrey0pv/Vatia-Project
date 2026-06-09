@@ -8,8 +8,11 @@ from etl.scrapers.codensa import CodensaScraper
 from etl.scrapers.emcali import EmcaliScraper
 from etl.scrapers.epm import EpmScraper
 from etl.scrapers.essa import EssaScraper
+from etl.scrapers.neu import NeuScraper
+from etl.scrapers.vatia import VatiaScraper
 
 __all__ = [
     "AfiniaScraper", "AireScraper", "BiaScraper", "CensScraper",
     "CodensaScraper", "EmcaliScraper", "EpmScraper", "EssaScraper",
+    "NeuScraper", "VatiaScraper",
 ]

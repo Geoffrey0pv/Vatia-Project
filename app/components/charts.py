@@ -152,12 +152,14 @@ def chart_heatmap(
         showscale=True,
         hovertemplate="<b>%{y}</b> · %{x}<br>CU: %{z:.4f} $/kWh<extra></extra>",
     ))
-    fig.update_layout(
-        **_LAYOUT_BASE,
-        height=altura,
-        yaxis=dict(autorange="reversed"),
-        title_text="",
-    )
+    layout = dict(_LAYOUT_BASE)
+    layout["height"] = altura
+    layout["title_text"] = ""
+    layout["yaxis"] = {
+        **layout.get("yaxis", {}),
+        "autorange": "reversed",
+    }
+    fig.update_layout(**layout)
     return fig
 
 
