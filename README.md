@@ -37,7 +37,7 @@ PDFs públicos → OCR → PostgreSQL → Dashboard Streamlit
 - **4 gráficos Plotly**: evolución histórica, componentes apilados, heatmap, gauge
 - **Explorador de base de datos** via pgAdmin4 en navegador
 - **Exportación a CSV** desde el dashboard con un clic
-- **Fase 2 (roadmap)**: Agente IA conversacional para análisis de tarifas vía LLM
+- **Agente IA conversacional (RAG)**: consultas en lenguaje natural sobre las tarifas con **Gemini 3.1 Flash Lite** + ChromaDB, con citado de fuentes
 
 ---
 
@@ -64,6 +64,7 @@ PDFs públicos → OCR → PostgreSQL → Dashboard Streamlit
 | Transformación | pandas, NumPy |
 | Base de datos | PostgreSQL 16, SQLAlchemy 2, psycopg2 |
 | Dashboard | Streamlit 1.35, Plotly 5 |
+| Agente IA (RAG) | Gemini 3.1 Flash Lite (google-genai), ChromaDB |
 | DB Explorer | pgAdmin4 |
 | Contenedores | Docker, Docker Compose |
 | Testing | pytest |
@@ -141,12 +142,30 @@ docker compose --profile etl run --rm etl
 ### 4. Ver el dashboard
 Abre http://localhost:8501 — los datos de CENS ya estarán disponibles.
 
+> Para poblar todos los competidores cuyos CSV ya existen en `data/processed/`
+> sin re-scrapear ni hacer OCR:
+> ```bash
+> docker compose exec app python -m etl.load_csvs
+> ```
+
+### 5. Activar el Agente IA (RAG)
+```bash
+# 1. Añade tu clave de Gemini a .env (https://aistudio.google.com/apikey)
+#    GEMINI_API_KEY=AIza...
+# 2. Reinicia la app
+docker compose up -d app
+# 3. Construye el índice semántico en ChromaDB
+docker compose exec app python -m agent.indexer
+```
+Abre la pestaña **🤖 Agente IA** del dashboard y pregunta en lenguaje natural.
+
 ---
 
 ## Estado Actual
 
 - ✅ **Fase 1** — ETL CENS (OCR), PostgreSQL, Dashboard Streamlit, pgAdmin4
-- 🔄 **Fase 2** — Agente IA conversacional, scrapers de 9 operadores restantes
+- ✅ **Fase 2** — Agente IA conversacional RAG (Gemini 3.1 Flash Lite + ChromaDB)
+- 🔄 **Pendiente** — scrapers automáticos de los operadores restantes, scheduler mensual
 
 ---
 

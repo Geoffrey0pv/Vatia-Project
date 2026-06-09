@@ -4,7 +4,7 @@
 **Versión:** 1.0  
 **Fecha:** Mayo 2026  
 **Equipo:** 3 desarrolladores  
-**Estado:** Fase 1 completada ✅ — Fase 2 en progreso
+**Estado:** Fase 1 ✅ — Fase 2 (Agente IA RAG con Gemini) ✅ — Scrapers restantes 🔄
 
 ---
 
@@ -65,7 +65,7 @@ El sistema consta de **4 componentes** que interactúan entre sí:
 │                             │            ┌─────────────▼────────────┐  │
 │                             │            │      COMPONENTE           │  │
 │                             └───────────▶│    AGENTE IA (RAG)        │  │
-│                                          │  (LangChain + LLM)        │  │
+│                                          │  (Gemini + ChromaDB)      │  │
 │                                          └──────────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -201,15 +201,24 @@ Pregunta del usuario
 [Construcción del contexto]  ←── prompt = sistema + contexto + pregunta
        │
        ▼
-[LLM (GPT-4o mini / local)]  ←── genera la respuesta en español
+[LLM (Gemini 3.1 Flash Lite)] ←── genera la respuesta en español
        │
        ▼
 [Respuesta al usuario]
 ```
 
-**Modelo LLM:**
-- **Opción A (recomendada para MVP):** OpenAI `gpt-4o-mini` — económico (~$0.15/1M tokens), respuestas en < 3 segundos
-- **Opción B (sin costo, local):** `Ollama` con `llama3.1:8b` — requiere GPU o PC potente, sin costo por consulta
+**Modelo LLM (implementado):** Google **Gemini 3.1 Flash Lite** (`gemini-3.1-flash-lite`)
+vía el SDK `google-genai` — económico, rápido (< 3 s) y con buen soporte de
+español. Embeddings con `gemini-embedding-001`. Todo configurable por `.env`
+(`GEMINI_API_KEY`, `GEMINI_MODEL`, `GEMINI_EMBED_MODEL`), por lo que migrar a
+otro proveedor no requiere tocar el código del agente.
+
+**Recuperación híbrida:** además de un documento por fila de tarifa, el
+indexador genera **documentos-resumen agregados** por (ciclo × nivel) con el
+CU mín/máx/promedio y el ranking del mercado. Esto permite responder bien
+preguntas numéricas ("¿el CU más bajo de Nivel 2?") que la búsqueda semántica
+pura sobre filas individuales no resuelve de forma fiable. Si no hay índice o
+clave, el recuperador cae a un modo léxico en memoria.
 
 **Tipos de consultas que debe responder el agente:**
 - "¿Cuál es el CU más bajo para Nivel 2 este mes?"
@@ -244,14 +253,14 @@ Se elige **Streamlit** como única interfaz de usuario porque:
 | **Base de datos** | `SQLite` → `PostgreSQL` | — | Almacén relacional de tarifas |
 | **ORM / queries** | `sqlite3` (MVP) / `sqlalchemy` | — | Acceso a datos desde Python |
 | **Vector store** | `chromadb` | 0.5+ | Base de datos de embeddings para RAG |
-| **RAG / LLM** | `langchain` + `openai` | 0.3+ | Orquestación del agente conversacional |
-| **Embeddings** | `text-embedding-3-small` (OpenAI) | — | Vectorización del contenido tarifario |
+| **RAG / LLM** | `google-genai` (Gemini 3.1 Flash Lite) | 2.x | Orquestación del agente conversacional |
+| **Embeddings** | `gemini-embedding-001` (Google) | — | Vectorización del contenido tarifario |
 | **Dashboard** | `streamlit` | 1.35+ | UI del dashboard y del chat |
 | **Visualizaciones** | `plotly` | 5.x | Gráficos interactivos en Streamlit |
 | **Testing** | `pytest` + `pytest-cov` | 8.x | Pruebas unitarias e integración |
 | **Linting** | `ruff` | 0.4+ | Calidad de código |
 | **Control de versiones** | `git` + GitHub | — | Colaboración entre 3 devs |
-| **Gestión de secretos** | `.env` + `python-dotenv` | — | API keys (OpenAI, etc.) |
+| **Gestión de secretos** | `.env` + `python-dotenv` | — | API keys (Gemini, etc.) |
 
 ---
 
@@ -304,12 +313,16 @@ vatia-plataforma/
 │   ├── connection.py              ← singleton de conexión SQLite
 │   └── queries.py                 ← consultas SQL reutilizables
 │
-├── agent/                         ── COMPONENTE 4: Agente IA RAG
+├── agent/                         ── COMPONENTE 4: Agente IA RAG (Gemini)
 │   ├── __init__.py
-│   ├── indexer.py                 ← carga datos → genera embeddings → ChromaDB
-│   ├── retriever.py               ← búsqueda semántica en ChromaDB
-│   ├── prompts.py                 ← plantillas de sistema y usuario
-│   └── chat_agent.py              ← orquestador LangChain
+│   ├── config.py                  ← carga API key, modelos y rutas desde .env
+│   ├── data_source.py             ← tarifas desde Postgres → fallback CSV
+│   ├── documents.py               ← filas + resúmenes agregados → documentos
+│   ├── embeddings.py              ← cliente Gemini + embeddings
+│   ├── indexer.py                 ← genera embeddings → ChromaDB (idempotente)
+│   ├── retriever.py               ← búsqueda semántica + fallback léxico
+│   ├── prompts.py                 ← system prompt en español
+│   └── chat_agent.py              ← orquestador RAG (recupera → Gemini)
 │
 ├── app/                           ── COMPONENTE 3: Dashboard + Chat UI
 │   ├── __init__.py
@@ -430,7 +443,7 @@ Esta relación es una **regla de validación de integridad** que debe cumplirse 
 | RNF-01 | **Rendimiento** | El ETL completo de 10 competidores debe completarse en < 30 minutos |
 | RNF-02 | **Rendimiento** | El dashboard debe cargar en < 3 segundos con hasta 12 meses de historia |
 | RNF-03 | **Disponibilidad** | La app Streamlit debe estar disponible 24/7 (Streamlit Cloud o servidor propio) |
-| RNF-04 | **Seguridad** | Las API keys (OpenAI) deben gestionarse via variables de entorno, nunca en el código |
+| RNF-04 | **Seguridad** | Las API keys (Gemini) deben gestionarse via variables de entorno, nunca en el código |
 | RNF-05 | **Seguridad** | Sin autenticación en MVP; agregar login básico (st.login o Google OAuth) en v2 |
 | RNF-06 | **Mantenibilidad** | Cada scraper debe ser independiente; agregar un nuevo competidor no afecta los demás |
 | RNF-07 | **Mantenibilidad** | Cobertura de tests ≥ 70% en los módulos ETL y agente |
@@ -465,15 +478,15 @@ Esta relación es una **regla de validación de integridad** que debe cumplirse 
 **Módulos:** `agent/`, integración `etl/load.py → chromadb`
 
 **Tareas:**
-- [ ] Implementar `agent/indexer.py`: convierte filas de tarifas a documentos de texto + embeddings
-- [ ] Implementar `agent/retriever.py`: búsqueda semántica en ChromaDB
-- [ ] Implementar `agent/prompts.py`: system prompt en español con instrucciones de dominio
-- [ ] Implementar `agent/chat_agent.py`: orquestador LangChain (RAG chain)
+- [x] Implementar `agent/indexer.py`: convierte filas de tarifas a documentos de texto + embeddings
+- [x] Implementar `agent/retriever.py`: búsqueda semántica en ChromaDB + fallback léxico
+- [x] Implementar `agent/prompts.py`: system prompt en español con instrucciones de dominio
+- [x] Implementar `agent/chat_agent.py`: orquestador RAG (recupera → Gemini)
 - [ ] Investigar e implementar scrapers para: EPM, CODENSA, EMCALI
-- [ ] Escribir tests del agente (`tests/unit/test_agent.py`)
-- [x] Documentar cómo configurar la API key de OpenAI / Ollama (`.env.example`)
+- [x] Escribir tests del agente (`tests/unit/test_agent.py`)
+- [x] Documentar cómo configurar la API key de Gemini (`.env.example`)
 
-**Conocimiento requerido:** LangChain, ChromaDB, OpenAI API, Python
+**Conocimiento requerido:** google-genai (Gemini), ChromaDB, Python
 
 ---
 
@@ -695,11 +708,11 @@ class TestCharts:
 |---|--------|-------------|---------|-----------|
 | R1 | Un competidor cambia el formato de su web/PDF | Alta | Medio | Scrapers independientes; alertas de monitoreo; tiempo de corrección < 1 día por scraper |
 | R2 | OCR falla para un PDF con fuente/resolución inusual | Media | Medio | Fallback posicional ya implementado; opción de escala ajustable por scraper |
-| R3 | OpenAI aumenta precios o restringe acceso | Baja | Alto | Arquitectura permite cambiar a Ollama (local) sin cambiar el código del agente |
+| R3 | Gemini aumenta precios o restringe acceso | Baja | Alto | Modelo configurable por `.env`: cambiar a otro modelo/proveedor sin tocar el código del agente |
 | R4 | ChromaDB pierde los embeddings (corrupción) | Baja | Medio | `indexer.py` es idempotente: re-indexar desde SQLite en < 5 minutos |
 | R5 | Streamlit Cloud tiene límite de recursos | Media | Bajo | Migrables a Railway o Render con `Dockerfile` |
 | R6 | Un competidor bloquea el scraping (IP ban) | Media | Medio | User-Agent rotation; respecto de robots.txt; caché de 30 días |
-| R7 | El equipo no tiene acceso a la API de OpenAI | Media | Alto | Usar Ollama con `llama3.1:8b` desde el inicio; documentar ambas opciones |
+| R7 | El equipo no tiene acceso a la API de Gemini | Media | Alto | Gemini ofrece capa gratuita en AI Studio; el modelo es configurable por `.env` para migrar de proveedor |
 
 ---
 
@@ -708,7 +721,7 @@ class TestCharts:
 1. **Hoy:** Crear el repositorio en GitHub, copiar esta estructura de carpetas, crear `requirements.txt`
 2. **Esta semana:** Cada persona elige su primer scraper nuevo y crea la rama `feat/scraper-{nombre}`
 3. **Esta semana:** Dev 3 crea el esqueleto de la app Streamlit con el tema de colores
-4. **Esta semana:** Dev 2 prueba LangChain + ChromaDB con los datos de CENS ya disponibles
+4. **Esta semana:** Dev 2 prueba Gemini + ChromaDB con los datos de CENS ya disponibles
 5. **Fin de semana 2:** Primera demo interna con datos de al menos 3 competidores
 
 ---
