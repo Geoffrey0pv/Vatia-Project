@@ -39,6 +39,7 @@ services:
       - ./data:/app/data
       - ./app:/app/app
       - ./db:/app/db
+      - ./agent:/app/agent
     restart: unless-stopped
 
   # ── ETL Pipeline (ejecutar manualmente) ───────────────────────────────────

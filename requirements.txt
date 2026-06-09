@@ -16,11 +16,9 @@ sqlalchemy>=2.0.0
 streamlit>=1.35.0
 plotly>=5.20.0
 
-# ── Agente IA ─────────────────────────────────────────────────────────────────
-langchain>=0.3.0
-langchain-openai>=0.2.0
+# ── Agente IA (RAG con Gemini) ───────────────────────────────────────────────
+google-genai>=1.0.0
 chromadb>=0.5.0
-openai>=1.30.0
 
 # ── Utilidades ────────────────────────────────────────────────────────────────
 apscheduler>=3.10.0

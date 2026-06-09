@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libpq-dev gcc curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Instalar solo dependencias del dashboard + DB
+# Instalar solo dependencias del dashboard + DB + agente RAG
 RUN pip install --no-cache-dir \
     streamlit>=1.35.0 \
     plotly>=5.20.0 \
@@ -14,10 +14,8 @@ RUN pip install --no-cache-dir \
     sqlalchemy>=2.0.0 \
     pandas>=2.2.0 \
     python-dotenv>=1.0.0 \
-    langchain>=0.3.0 \
-    langchain-openai>=0.2.0 \
-    chromadb>=0.5.0 \
-    openai>=1.30.0
+    google-genai>=1.0.0 \
+    chromadb>=0.5.0
 
 COPY app/      ./app/
 COPY db/       ./db/
